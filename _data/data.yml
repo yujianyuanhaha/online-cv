@@ -38,70 +38,64 @@ career-profile:
       (include WiFi, Bluetooth, and mmW Radar) for Indoor Localization and Human Activity Monitoring (HealthCare or Fitness), 
       Resource Allocation using Deep Reinforcement Learning, Cognitive Radio and GPS/GNSS techniques.
 education:
-    title: Education
-    info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
+    - degree: Ph.D. in Electrical Engineering
+      university: Virginia Tech
+      time: 2017 - 2022
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+          - Bullet point
+          - Bullet point
+    - degree: M.S. in  Electrical Engineering
+      university: National Taiwan University
+    - degree: B.S. in  Electrical Engineering
+      university: Beijing Institute of Technology
+      details: |
+        GPS DLL/FLL/PLL simulator.
 experiences:
-    title: Experiences
-    info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
+    - role: Research Intern
+      time: 2022 Jan - Present
+      company: Samsung Research America, Plano, TX
+      details: |
+        - WiFi CSI sensing for human activity monitor and indoor localization,
+        - 802.11mc Round Trip Time (RTT) & Extend Kalman Filter/ Particle Filter/ PDR  for  indoor localization,
+        - UWB Radar sensing on mobile phones,
+        - Andriod prototype application development.
+    - role: Research Intern
+      time: 2020 May - 2021 May
+      company: Mitsubishi Electric Research Laboratories (MERL), Boston
+      details: |
+        Building WiFi sensing testbed for human activity recognition and indoor localization, 
+        result in 2 conference papers, 2 journal papers submission, several patents and selected 
+        into Mitsubishi Global OpenHouse 2020 and 30-anniversary highlights. Build WiFi sensing system with CSI
+        (intel5300/ Atheros/ nexmon/ ESP32 tools), RSSI and 11ad beamSNR routers with time synchronization and 
+        offset calibration, using OpenPose tool as labels.
+          - Implement algorithms AoA-ToF-Doppler profile from commercial router CSI.
+          - Build an indoor localization system on a robot, using SLAM coordinates as labels.
+          - Bluetooth 5.2 AoA testbed with antenna switching.
+          - Cross-Modality human activity reasoning with CSI and mmW FMCW radar.
+          - 5G & 60G band WiFi sensing Fusion work as journal submission
+          - SPAWC sensor fusion indoor localization challenge, finished 2nd place with 20cm accuracy.
+    - role: Graduate Research Assistant
+      time: 2017 - 2020 May, 2021 May - Dec
+      company: Virginia Tech, Blacksburg
+      details: |
+        Wireless Sensing and Communication using Deep Learning techniques.
+          - Healthcare with Radio-Frequency monitoring: apply RSSI for sub-room level localization, fall and stroke detection
+          using IMU and CSI AoA-ToF-Doppler profile, self-learning between IMU and CSI.
+          - DNN-assisted CFAR: ResNet assisted Constant False-Alarm Rate signal detection
+          - High-Loading DoA Estimation with Machine Learning: apply machine learning to estimate direction of arrival(DoA) at vector sensor 
+          to resolve the antenna offsets, nearby angles and high-loading issues in subspace methods. apply ResNet for Modular-Order-Estimation (MoE).
+          apply hybrid DNN-MUSIC method to locate regions first using DNN and then MUSIC for super-resolution estimation. transfer learning with 
+          different unknown polarization angles.
+          - Narrowband Interference Mitigation Library: implement and evaluate interference mitigation library in presence of common interference, 
+          cover filter bank, FRFT, DSSS etc. design neural network to classify interference type based on spectrum.
+          - SC2 DARPA - Spectrum Collaboration Challenge: Apply Reinforcement Learning on dynamic channel access, implement Markov Decision Process(MDP),
+          Deep Q Network(DQN) to share spectrum with hopping or intermittent nodes, apply Deep Recurrent Q Network(DRQN) to deal with partial observation, 
+          learn stochastic nodes and hidden nodes,explore fast and suboptimal converge cast algorithms. 
 projects:
     title: Projects
     intro: >
