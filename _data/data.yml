@@ -100,7 +100,7 @@ experiences:
           Deep Q Network(DQN) to share spectrum with hopping or intermittent nodes, apply Deep Recurrent Q Network(DRQN) to deal with partial observation, 
           learn stochastic nodes and hidden nodes,explore fast and suboptimal converge cast algorithms. 
 projects:
-    title: Selected Projects
+    title: Projects
     assignments:
       - title: 2nd place CTW indoor location competition
         link: "https://ctw2019.ieee-ctw.org/authors/"
@@ -130,7 +130,10 @@ projects:
 publications:
     title: Publications
     papers:
-      - title: [1]. Multi-Band Wi-Fi Sensing with Matched Feature Granularity, link: "#", authors: Jianyuan Yu, Pu Wang,  T Koike-Akino, Y Wang, PV Orlik, RM Buehrer, conference: "IEEE ioT, 2022"
+      - title: [1]. Multi-Band Wi-Fi Sensing with Matched Feature Granularity
+        link: "#"
+        authors: Jianyuan Yu, Pu Wang,  T Koike-Akino, Y Wang, PV Orlik, RM Buehrer
+        conference: "IEEE ioT, 2022"
 
       - title: [2]. Multi-Modal Recurrent Fusion for Indoor Localization
         link: "#"
