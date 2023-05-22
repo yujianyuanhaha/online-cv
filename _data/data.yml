@@ -51,10 +51,20 @@ education:
           - Bullet point
     - degree: M.S. in  Electrical Engineering
       university: National Taiwan University
+      time: 2014 - 2017
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+          - Bullet point
+          - Bullet point
     - degree: B.S. in  Electrical Engineering
       university: Beijing Institute of Technology
+      time: 2009 - 2013
       details: |
-        GPS DLL/FLL/PLL simulator.
+        GPS DLL/FLL/PLL simulator
 experiences:
     title: Experiences
     info:
