@@ -3,232 +3,219 @@
 #
 
 sidebar:
-    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Jianyuan "Jet" Yu
-    tagline: RF System Engineer, Apple
+    name: Alan Doe
+    tagline: Full Stack Developer
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: jianyuan@vt.edu
-    phone: 5407509198
-    linkedin: yujianyuanhaha   
-    github: yujianyuanhaha   
-    pdf: resume.pdf
+    email: hello@webjeda.com
+    phone: 012 345 6789
+    timezone: America/Cancun Timezone
+    citizenship:
+    website: blog.webjeda.com #do not add http://
+    linkedin: alandoe
+    xing: alandoe
+    github: sharu725
+    telegram: # add your nickname without '@' sign
+    gitlab:
+    bitbucket:
+    twitter: '@webjeda'
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    codewars:
+    goodreads: # Number-Username, e.g. 123456-alandoe
+    pdf: http://www.africau.edu/images/default/sample.pdf
+
+    languages:
+      title: Languages
+      info:
+        - idiom: English
+          level: Native
+
+        - idiom: French
+          level: Professional
+
+        - idiom: Spanish
+          level: Professional
 
     interests:
-      - item: Wireless Sensing for Localization and Human Activity Monitoring
-        link:
+      title: Interests
+      info:
+        - item: Climbing
+          link:
 
-      - item: mmW Radar
-        link:
+        - item: Snowboarding
+          link:
 
-      - item: Resource Allocation using Deep Reinforcement Learning
-        link:
-        
-      - item: GPS/GNSS
-        link:   
+        - item: Cooking
+          link:
 
 career-profile:
     title: Career Profile
     summary: |
-      Interests span over Wireless Sensing 
-      (include WiFi, Bluetooth, and mmW Radar) for Indoor Localization and Human Activity Monitoring (HealthCare or Fitness), 
-      Resource Allocation using Deep Reinforcement Learning, Cognitive Radio and GPS/GNSS techniques.
+      Summarise your career here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. You can [download this free resume/CV template here]().
+      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
+      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+      Donec quam felis, ultricies nec, pellentesque eu.
+      Second paragraph if required.
 education:
-    - degree: Ph.D. in Electrical Engineering
-      university: Virginia Tech
-      time: 2017 - 2022
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - degree: M.S. in  Electrical Engineering
-      university: National Taiwan University
-    - degree: B.S. in  Electrical Engineering
-      university: Beijing Institute of Technology
-      details: |
-        GPS DLL/FLL/PLL simulator.
+    title: Education
+    info:
+      - degree: MSc in Computer Science
+        university: University of London
+        time: 2011 - 2012
+        details: |
+          Describe your study here lorem ipsum dolor sit amet, consectetuer
+          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+          sociis natoque penatibus et magnis dis parturient montes, nascetur
+          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+          pretium quis, sem.
+            - Bullet point
+            - Bullet point
+      - degree: BSc in Applied Mathematics
+        university: Bristol University
+        time: 2007 - 2011
+        details: |
+          Describe your study here lorem ipsum dolor sit amet, consectetuer
+          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+          sociis natoque penatibus et magnis dis parturient montes, nascetur
+          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+          pretium quis, sem.
+            - Bullet point
+            - Bullet point
 experiences:
-    - role: Research Intern
-      time: 2022 Jan - Present
-      company: Samsung Research America, Plano, TX
-      details: |
-        - WiFi CSI sensing for human activity monitor and indoor localization,
-        - 802.11mc Round Trip Time (RTT) & Extend Kalman Filter/ Particle Filter/ PDR  for  indoor localization,
-        - UWB Radar sensing on mobile phones,
-        - Andriod prototype application development.
-    - role: Research Intern
-      time: 2020 May - 2021 May
-      company: Mitsubishi Electric Research Laboratories (MERL), Boston
-      details: |
-        Building WiFi sensing testbed for human activity recognition and indoor localization, 
-        result in 2 conference papers, 2 journal papers submission, several patents and selected 
-        into Mitsubishi Global OpenHouse 2020 and 30-anniversary highlights. Build WiFi sensing system with CSI
-        (intel5300/ Atheros/ nexmon/ ESP32 tools), RSSI and 11ad beamSNR routers with time synchronization and 
-        offset calibration, using OpenPose tool as labels.
-          - Implement algorithms AoA-ToF-Doppler profile from commercial router CSI.
-          - Build an indoor localization system on a robot, using SLAM coordinates as labels.
-          - Bluetooth 5.2 AoA testbed with antenna switching.
-          - Cross-Modality human activity reasoning with CSI and mmW FMCW radar.
-          - 5G & 60G band WiFi sensing Fusion work as journal submission
-          - SPAWC sensor fusion indoor localization challenge, finished 2nd place with 20cm accuracy.
-
-
-    - role: Graduate Research Assistant
-      time: 2017 - 2020 May, 2021 May - Dec
-      company: Virginia Tech, Blacksburg
-      details: |
-        Wireless Sensing and Communication using Deep Learning techniques.
-          - Healthcare with Radio-Frequency monitoring: apply RSSI for sub-room level localization, fall and stroke detection
-          using IMU and CSI AoA-ToF-Doppler profile, self-learning between IMU and CSI.
-          - DNN-assisted CFAR: ResNet assisted Constant False-Alarm Rate signal detection
-          - High-Loading DoA Estimation with Machine Learning: apply machine learning to estimate direction of arrival(DoA) at vector sensor 
-          to resolve the antenna offsets, nearby angles and high-loading issues in subspace methods. apply ResNet for Modular-Order-Estimation (MoE).
-          apply hybrid DNN-MUSIC method to locate regions first using DNN and then MUSIC for super-resolution estimation. transfer learning with 
-          different unknown polarization angles.
-          - Narrowband Interference Mitigation Library: implement and evaluate interference mitigation library in presence of common interference, 
-          cover filter bank, FRFT, DSSS etc. design neural network to classify interference type based on spectrum.
-          - SC2 DARPA - Spectrum Collaboration Challenge: Apply Reinforcement Learning on dynamic channel access, implement Markov Decision Process(MDP),
-          Deep Q Network(DQN) to share spectrum with hopping or intermittent nodes, apply Deep Recurrent Q Network(DRQN) to deal with partial observation, 
-          learn stochastic nodes and hidden nodes,explore fast and suboptimal converge cast algorithms. 
+    title: Experiences
+    info:
+      - role: Lead Developer
+        time: 2015 - Present
+        company: Startup Hubs, San Francisco
+        details: |
+          Describe your role here lorem ipsum dolor sit amet, consectetuer
+          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+          Cum sociis natoque penatibus et magnis dis parturient montes,
+          nascetur ridiculus mus. Donec quam felis, ultricies nec,
+          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
+          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
+          error sit voluptatem accusantium doloremque laudantium, totam rem
+          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+          architecto beatae vitae dicta sunt explicabo.
+            - Bullet point
+            - Bullet point
+      - role: Senior Software Engineer
+        time: 2014 - 2015
+        company: Google, London
+        details: |
+          Describe your role here lorem ipsum dolor sit amet, consectetuer
+          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+          Cum sociis natoque penatibus et magnis dis parturient montes,
+          nascetur ridiculus mus. Donec quam felis, ultricies nec,
+          pellentesque eu, pretium quis, sem.
+            - Bullet point
+            - Bullet point
+      - role: UI Developer
+        time: 2012 - 2014
+        company: Amazon, London
+        details: |
+          Describe your role here lorem ipsum dolor sit amet, consectetuer
+          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+          Cum sociis natoque penatibus et magnis dis parturient montes,
+          nascetur ridiculus mus. Donec quam felis, ultricies nec,
+          pellentesque eu, pretium quis, sem.
+            - Bullet point
+            - Bullet point
 projects:
-    title: Selected Projects
+    title: Projects
+    intro: >
+      You can list your side projects in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
     assignments:
-      - title: 2nd place CTW indoor location competition
-        link: "https://ctw2019.ieee-ctw.org/authors/"
-        tagline: "Mining CSI using RNN for centimeter-level localization, reaching under 10 cm accuracy."
+      - title: Velocity
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
 
-      - title: Qualcomm Innovation Fellowship 2nd Round
+      - title: DevStudio
         link: "#"
-        tagline: "Dynamic spectrum sharing by Distributed Reinforcement Learning on Mobile Edges."
+        tagline: "A responsive website template designed to help web developers/designers market their services."
 
-      - title: 1st Prize of Openpower hackathon ARC, Virginia Tech
+      - title: Tempo
         link: "#"
-        tagline: "Extend indoor positioning with neural network to IBM DLL multi-CPU platform and Nvidia Jetson Nano."
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
 
-      - title: Obstacle Avoid Car with DQN in Unreal Engine & Airsim
+      - title: Atom
         link: "#"
-        tagline: "Cars start somewhere surrounded by obstacle, plan to get out without collide eventually by Reinforcement Learning."
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
 
-      - title: Implementation of a Tiny MIMO Communication System with USRPs
+      - title: Delta
         link: "#"
-        tagline: "Implement 2X2 MIMO system on 4 Ettus N210 devices with GNU Radio Companion and some OOT programmings, able to successfully transmit text, image and audio."
-        
-      - title: Cuisine Prediction from Recipe,  A classification problem on Kaggle
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+oss:
+    title: OSS Contributions
+    intro: >
+      You can list your open source software contributions in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    contributions:
+      - title: Tempo
         link: "#"
-        tagline: "Trial with cosine similarity, PCA reduction, xgboost(extreme gradient boosting toolkit), item split, LDA and grid search method in R or python codes, and finally reach top 5% with 82% accuracy."
-   
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
 publications:
     title: Publications
+    intro: |
+      You can list your publications in this section. Lorem ipsum dolor sit
+      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+      bibendum fringilla a eu lectus.
     papers:
-      - title: [1]. Multi-Band Wi-Fi Sensing with Matched Feature Granularity, link: "#", authors: Jianyuan Yu, Pu Wang,  T Koike-Akino, Y Wang, PV Orlik, RM Buehrer, conference: "IEEE ioT, 2022"
-
-      - title: [2]. Multi-Modal Recurrent Fusion for Indoor Localization
+      - title: The Art of Computer Programming
         link: "#"
-        authors: Jianyuan Yu, Pu Wang, PV Orlik
-        conference: "IEEE SPAWC, 2021"  
+        authors: Donald E. Knuth
+        conference: Addison-Wesley, 1968
 
-      - title: [3]. Direction-of-Arrival Estimation With A Vector Sensor Using Deep Neural Networks
+      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
         link: "#"
-        authors: Jianyuan Yu, William W Howard, RM Buehrer
-        conference: "IEEE VTC, 2021"
+        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
 
-      - title: [4]. Predicting Bit Error Rate from Meta Information using Random Forests and Partial Data Augmentation
+      - title: A syntax directed compiler for Algol 60
         link: "#"
-        authors: Jianyuan Yu, Y Xu, HM Saad, RM Buehrer
-        conference: "IEEE SouthEast. (2021)"
-
-      - title: [5]. Human Pose and Seat Occupancy Classification with Commercial MMWave WiFi
-        link: "#"
-        authors: Jianyuan Yu, Pu Wang, T Koike-Akino, Y Wang, PV Orlik
-        conference: "IEEE GLOBECOM WS (2020)"
-
-      - title: [6]. The Application of Deep Reinforcement Learning to Distributed Spectrum Access in Dynamic Heterogeneous Environments with Partial Observations
-        link: "#"
-        authors: Yue Xu, Jianyuan Yu, R.Michael Buehrer
-        conference: "IEEE TWC, 2020"  
-
-      - title: [7]. Centimeter-level indoor localization using channel state information with recurrent neural networks
-        link: "#"
-        authors: Jianyuan Yu, Hussein Metwaly Saad, and R. Michael Buehrer. 
-        conference: "IEEE PLAN (2020)" 
-
-      - title: [8]. Direction of arrival estimation of digital sources with uni-vector-sensor esprit
-        link: "#"
-        authors: Tait, Daniel, Jianyuan Yu RM Buehrer
-        conference: "IEEE SPAWC (2020)"  
-
-      - title: [9]. Interference classification using deep neural networks
-        link: "#"
-        authors: Jianyuan Yu, Mohammad Alhassoun, and R. Michael Buehrer
-        conference: "IEEE VTC (2020)"  
-
-
-      - title: [10]. Cache-Enabled Dynamic Spectrum Access via Deep Recurrent Q-Networks with Partial Observation
-        link: "#"
-        authors: Yue Xu, Jianyuan Yu, R.Michael Buehrer
-        conference: "IEEE DySPAN (2019)"  
-
-
-      - title: [11]. Applying Deep-Q Networks to Target Tracking to Improve Cognitive Radar
-        link: "#"
-        authors: Mark Kozy, Jianyuan Yu, R.Michael Buehrer
-        conference: "IEEE RadarCom (2019)"      
-
-
-      - title: [12]. Deep Reinforcement Learning for Dynamic Spectrum Access in Wireless Networks
-        link: "#"
-        authors: Yue Xu, Jianyuan Yu, R.Michael Buehrer
-        conference: "IEEE MILCOM (2018)"  
-
-
-      - title: [13]. Dealing with Partial Observations in Dynamic Spectrum Access with Deep Recurrent Q-Networks
-        link: "#"
-        authors: Yue Xu, Jianyuan Yu, R.Michael Buehrer
-        conference: "IEEE MILCOM (2018)"  
-
-
-      - title: [14]. Application of Multiple Interfaces and Balanced Tree Routing of Low-delayed Convergecast in IEEE802.15.4e TSCH M2M Networks
-        link: "#"
-        authors: Jianyuan Yu, Hung-Yun Hsieh 
-        conference: "IEEE ICCS (2016)"  
-        
+        authors: Edgar T. Irons
+        conference: "Comm. ACM 4 (1961), 51–55"
 
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: C++
-        level: 98%
-        
-      - name: Python, Pytorch, Keras
+      - name: Python & Django
         level: 98%
 
-      - name: Matlab
+      - name: Javascript & jQuery
         level: 98%
 
-      - name: Shell
+      - name: Angular
         level: 98%
 
-      - name: C & C++
-        level: 65%
+      - name: HTML5 & CSS
+        level: 95%
 
-      - name: HTML5
-        level: 55%
+      - name: Ruby on Rails
+        level: 85%
 
-      - name: SQL
-        level: 50%
-        
-      - name: USRP, GNU Radio
-        level: 50%  
+      - name: Sketch & Photoshop
+        level: 60%
 
-
-
+footer: >
+    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
